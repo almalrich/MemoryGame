@@ -1,0 +1,47 @@
+img{
+width: 100px;
+}
+
+
+#total >  div{
+   display: inline-block;
+}
+
+#total1 > div{
+    display: inline-block;
+}
+
+#temps{
+
+    position: absolute;
+    margin-top: 20%;
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#resulta{
+    margin-top: 10%;
+    position: absolute;
+    left: 0;
+}
+#ok{
+    position: absolute;
+    margin-top: 10%;
+    left: 0;
+}
+#totall{
+    display: none;
+}
+
+#total {
+
+    display:block;
+}
