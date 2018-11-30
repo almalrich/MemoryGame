@@ -94,7 +94,7 @@ for (let i = 0; i < Img.length; i++) {
                                 click = 0;
                                 cartes1 = null;
                                 cartes2 = null;
-                            }, 1000
+                            }, 500
                         );
 
                     }
@@ -161,6 +161,7 @@ document.getElementById("reset").addEventListener("click", function () {
         location.reload()
     }
 );
+/* jasmine
 let g;
 let zero = function () {
     if (g = 5) {
@@ -170,5 +171,5 @@ let zero = function () {
 
 }
 
-export {zero}
+export {zero}*/
 
