@@ -1,30 +1,48 @@
 img{
-width: 100px;
+    margin-top: 50px;
+    width: 80px;
 }
 
+#mapage{
+    background-image: url("fondhs.jpg");
+    height: 900px;
+    color: beige;
+}
 
 #total >  div{
-   display: inline-block;
+
+    display: inline-block;
+    margin-left: 5%;
+    width: 200px;
+
 }
 
 #total1 > div{
     display: inline-block;
+    font-size: 50px;
+    margin-left: 30%;
+
+}
+
+#tem{
+    font-size: 50px;
 }
 
 #temps{
-
+    margin-right: 100px;
     position: absolute;
     margin-top: 20%;
-    background-color: darkred;
-    width: 100px;
-    height: 100px;
     color: aliceblue;
     font-size: 25px;
+    background-color: darkblue;
+    display: inline-block;
 }
 
 h1{
     display: flex;
     justify-content: center;
+    font-size: 50px;
+    text-shadow: 2px 2px cyan;
 }
 
 #resulta{
@@ -35,13 +53,30 @@ h1{
 #ok{
     position: absolute;
     margin-top: 10%;
-    left: 0;
+    left: 48%;
+    border-radius: 360px;
 }
 #totall{
     display: none;
+    color: beige;
 }
 
-#total {
+#reset{
+    border-radius: 360px;
+    margin-left: 48%;
+    margin-top: 50px;
+}
 
-    display:block;
+
+
+
+@media only screen and (max-width : 840px) {
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+
+    }
+
 }
